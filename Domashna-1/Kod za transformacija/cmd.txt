@@ -1,0 +1,5 @@
+C:\Users\User>cd PhpStormProjects
+
+C:\Users\User\PhpstormProjects>cd FacultyApp
+
+C:\Users\User\PhpstormProjects\FacultyApp>php faculty.php

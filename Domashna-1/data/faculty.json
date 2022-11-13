@@ -1,0 +1,686 @@
+[
+  {
+    "place_id": 342594098,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 473300441,
+    "boundingbox": [
+      "43.3205011",
+      "43.3206525",
+      "21.891105",
+      "21.8914005"
+    ],
+    "lat": "43.32057555",
+    "lon": "21.89123042856285",
+    "display_name": "Факултет уметности, 10, Књегиње Љубице, Ниш (Медијана), Градска општина Медијана, Niš, Nisava Administrative District, Central Serbia, 18105, Serbia",
+    "place_rank": 30,
+    "category": "building",
+    "type": "university",
+    "importance": 0.10010000000000001
+  },
+  {
+    "place_id": 79880335,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7781686838,
+    "boundingbox": [
+      "41.5108339",
+      "41.5109339",
+      "20.9595689",
+      "20.9596689"
+    ],
+    "lat": "41.5108839",
+    "lon": "20.9596189",
+    "display_name": "Faculty of Technology - Nutrition, Александар Македонски, Chiflik, Kichevo, Municipality of Kichevo, Southwestern Region, 6250, North Macedonia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "university",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+  },
+  {
+    "place_id": 38326324,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3098482742,
+    "boundingbox": [
+      "41.5109134",
+      "41.5110134",
+      "20.9594502",
+      "20.9595502"
+    ],
+    "lat": "41.5109634",
+    "lon": "20.9595002",
+    "display_name": "Law University - St Kliment Ohridski, Александар Македонски, Chiflik, Kichevo, Municipality of Kichevo, Southwestern Region, 6250, North Macedonia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "university",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+  },
+  {
+    "place_id": 79955933,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7694989124,
+    "boundingbox": [
+      "43.3170307",
+      "43.3171307",
+      "21.8909751",
+      "21.8910751"
+    ],
+    "lat": "43.3170807",
+    "lon": "21.8910251",
+    "display_name": "Правни факултет, Југ Богданова, Ниш (Медијана), Градска општина Медијана, City of Niš, Nisava Administrative District, Central Serbia, 18101, Serbia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "university",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+  },
+  {
+    "place_id": 78927945,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7694989123,
+    "boundingbox": [
+      "43.3174079",
+      "43.3175079",
+      "21.890867",
+      "21.890967"
+    ],
+    "lat": "43.3174579",
+    "lon": "21.890917",
+    "display_name": "Економски факултет, Трг краља Александра Ујединитеља, Ниш (Медијана), Градска општина Медијана, City of Niš, Nisava Administrative District, Central Serbia, 18101, Serbia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "university",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+  },
+  {
+    "place_id": 278184513,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 919665113,
+    "boundingbox": [
+      "41.0218101",
+      "41.0224733",
+      "21.3305264",
+      "21.3316656"
+    ],
+    "lat": "41.022120650000005",
+    "lon": "21.331028534343755",
+    "display_name": "Faculty of law - Kichevo, 0, Partizanski Odredi na Makedonija, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "university",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+  },
+  {
+    "place_id": 141649606,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 158940837,
+    "boundingbox": [
+      "41.7192181",
+      "41.7200349",
+      "21.7626063",
+      "21.7637435"
+    ],
+    "lat": "41.7196274",
+    "lon": "21.763207213175928",
+    "display_name": "С.С.О.У 'Коле Неделковси', Андон Шурков, Veles, Municipality of Veles, Vardar Region, 1400, North Macedonia",
+    "place_rank": 30,
+    "category": "amenity",
+    "type": "college",
+    "importance": 0.0001,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_school.p.20.png"
+  },
+    {
+      "place_id": 298098595,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 5360061,
+      "boundingbox": [
+        "42.0014277",
+        "42.0019179",
+        "21.4374454",
+        "21.4381019"
+      ],
+      "lat": "42.00166725",
+      "lon": "21.43757633158769",
+      "display_name": "Faculty of Visual Arts - Suli An, Кујунџиска, Chair, Skopje, Municipality of Chair, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "amenity",
+      "type": "university",
+      "importance": 0.5158720222757678,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+    },
+    {
+      "place_id": 142786089,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 163003846,
+      "boundingbox": [
+        "41.988217",
+        "41.9888231",
+        "21.4246432",
+        "21.4255254"
+      ],
+      "lat": "41.9884807",
+      "lon": "21.42522232539943",
+      "display_name": "Faculty of Farmacy, 50-ta divizija, Centar, Skopje, Municipality of Centar, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "amenity",
+      "type": "university",
+      "importance": 0.2101,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+    },
+    {
+      "place_id": 99535385,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9816544611,
+      "boundingbox": [
+        "41.9977413",
+        "41.9978413",
+        "21.4351817",
+        "21.4352817"
+      ],
+      "lat": "41.9977913",
+      "lon": "21.4352317",
+      "display_name": "Faculty of Music - Skopje, Mother Teresa Square, Centar, Skopje, Municipality of Centar, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "amenity",
+      "type": "college",
+      "importance": 0.2101,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_school.p.20.png"
+    },
+    {
+      "place_id": 337150712,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 177017257,
+      "boundingbox": [
+        "41.9996382",
+        "42.0006309",
+        "21.4179262",
+        "21.4194351"
+      ],
+      "lat": "42.0001354",
+      "lon": "21.41908010054172",
+      "display_name": "Faculty of Civil Engineering  & Architecture, 24, Boulevard Partizanski Odredi, Centar, Skopje, Municipality of Centar, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "building",
+      "type": "yes",
+      "importance": 0.2101
+    },
+    {
+      "place_id": 146806954,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 176176612,
+      "boundingbox": [
+        "41.9926985",
+        "41.9933364",
+        "21.4093092",
+        "21.410475"
+      ],
+      "lat": "41.9930085",
+      "lon": "21.40988807506678",
+      "display_name": "Faculty of Theology, 29, Zagrepska, Centar, Skopje, Municipality of Centar, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "amenity",
+      "type": "university",
+      "importance": 0.2101,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+    },
+    {
+      "place_id": 115489484,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 37626725,
+      "boundingbox": [
+        "42.0055191",
+        "42.0057739",
+        "21.4063983",
+        "21.4068696"
+      ],
+      "lat": "42.0056465",
+      "lon": "21.40663395",
+      "display_name": "Faculty of Mechanical Engineering, Септемвриска сесија, Karposh, Skopje, Municipality of Karposh, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "amenity",
+      "type": "university",
+      "importance": 0.2101,
+      "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+    },
+    {
+      "place_id": 298496451,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7845991,
+      "boundingbox": [
+        "42.0044892",
+        "42.0049767",
+        "21.4095833",
+        "21.4106742"
+      ],
+      "lat": "42.004732149999995",
+      "lon": "21.410550415741042",
+      "display_name": "Faculty of Technology and Metallurgy, Nikola Tesla, Karposh, Skopje, Municipality of Karposh, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "building",
+      "type": "university",
+      "importance": 0.2101
+    },
+    {
+      "place_id": 298436432,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7831823,
+      "boundingbox": [
+        "42.0047469",
+        "42.0052",
+        "21.4079315",
+        "21.408743"
+      ],
+      "lat": "42.0049791",
+      "lon": "21.40834315",
+      "display_name": "Faculty of Electrical Engineering and Information Technologies, Orce Nikolov, Karposh, Skopje, Municipality of Karposh, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "building",
+      "type": "university",
+      "importance": 0.2101
+    },
+    {
+      "place_id": 114863107,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 35829314,
+      "boundingbox": [
+        "42.0040941",
+        "42.0046292",
+        "21.4074422",
+        "21.4085396"
+      ],
+      "lat": "42.00437735",
+      "lon": "21.407995098132954",
+      "display_name": "Faculty of Mechanical Engineering, Руѓер Бошковиќ, Karposh, Skopje, Municipality of Karposh, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "building",
+      "type": "university",
+      "importance": 0.2101
+    },
+    {
+      "place_id": 115693475,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 35829344,
+      "boundingbox": [
+        "42.0038853",
+        "42.0043122",
+        "21.4093667",
+        "21.4101226"
+      ],
+      "lat": "42.00409875",
+      "lon": "21.40974465",
+      "display_name": "Faculty of Computer Science and Engineering, 16, Руѓер Бошковиќ, Karposh, Skopje, Municipality of Karposh, City of Skopje, Skopje Region, 1000, North Macedonia",
+      "place_rank": 30,
+      "category": "building",
+      "type": "university",
+      "importance": 0.2101
+    },
+      {
+        "place_id": 278184513,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 919665113,
+        "boundingbox": [
+          "41.0218101",
+          "41.0224733",
+          "21.3305264",
+          "21.3316656"
+        ],
+        "lat": "41.022120650000005",
+        "lon": "21.331028534343755",
+        "display_name": "Faculty of law - Kichevo, 0, Partizanski Odredi na Makedonija, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.2101,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+      },
+      {
+        "place_id": 278183123,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 925913817,
+        "boundingbox": [
+          "41.022652",
+          "41.0236586",
+          "21.3252772",
+          "21.3269898"
+        ],
+        "lat": "41.02321015",
+        "lon": "21.32613774890303",
+        "display_name": "Faculty of biotechnical sciences, 0, Стале Попов, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.2101,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+      },
+      {
+        "place_id": 287424351,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 991661503,
+        "boundingbox": [
+          "41.0213238",
+          "41.0229711",
+          "21.3246231",
+          "21.3266436"
+        ],
+        "lat": "41.02212565",
+        "lon": "21.3256455212277",
+        "display_name": "Faculty of information and communication technologies - Bitola, 0, Студентска, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.2101,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+      },
+      {
+        "place_id": 287210009,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 991666686,
+        "boundingbox": [
+          "41.0314645",
+          "41.0330274",
+          "21.313767",
+          "21.3158671"
+        ],
+        "lat": "41.032228149999995",
+        "lon": "21.314801503627763",
+        "display_name": "Faculty for pedagogical studies - Bitola, 11 Brigada, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.2101,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+      },
+      {
+        "place_id": 286127722,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 990060751,
+        "boundingbox": [
+          "41.0201753",
+          "41.0216348",
+          "21.3404992",
+          "21.342191"
+        ],
+        "lat": "41.02092985",
+        "lon": "21.34129022155961",
+        "display_name": "Faculty of Technical Sciences - Bitola, 33, Makedonska Falanga, Bitola, Municipality of Bitola, Pelagonia Region, 7000, North Macedonia",
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.2101,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+      },
+        {
+          "place_id": 206470254,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 445153499,
+          "boundingbox": [
+            "41.7337253",
+            "41.7339526",
+            "22.1989437",
+            "22.1992714"
+          ],
+          "lat": "41.73383895",
+          "lon": "22.19910755",
+          "display_name": "Факултет за Медицински Науки - Деканат, Љубен Иванов, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "amenity",
+          "type": "university",
+          "importance": 0.3644313097683034,
+          "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+        },
+        {
+          "place_id": 240110040,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119473,
+          "boundingbox": [
+            "41.7460685",
+            "41.7463246",
+            "22.1833242",
+            "22.183687"
+          ],
+          "lat": "41.7461974",
+          "lon": "22.18350554726073",
+          "display_name": "Факултет за информатика, R1204, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.10010000000000001
+        },
+        {
+          "place_id": 240206397,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119478,
+          "boundingbox": [
+            "41.759492",
+            "41.7599502",
+            "22.1657913",
+            "22.1664047"
+          ],
+          "lat": "41.7597211",
+          "lon": "22.166097999999998",
+          "display_name": "Факултет за туризам и бизнис логистика, Zheleznichka, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.10010000000000001
+        },
+        {
+          "place_id": 241489855,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119474,
+          "boundingbox": [
+            "41.7459377",
+            "41.7462112",
+            "22.1834417",
+            "22.1838237"
+          ],
+          "lat": "41.746074449999995",
+          "lon": "22.183632699999997",
+          "display_name": "Факултет за природни и технички науки, R1204, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.10010000000000001
+        },
+        {
+          "place_id": 240439185,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119477,
+          "boundingbox": [
+            "41.7597001",
+            "41.7601185",
+            "22.1655327",
+            "22.1661202"
+          ],
+          "lat": "41.75990735",
+          "lon": "22.16582884312286",
+          "display_name": "Факултет за образовни науки, Zheleznichka, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.10010000000000001
+        },
+        {
+          "place_id": 205236246,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 446113895,
+          "boundingbox": [
+            "41.7361763",
+            "41.7364162",
+            "22.1948083",
+            "22.1954604"
+          ],
+          "lat": "41.73629575",
+          "lon": "22.19511815481011",
+          "display_name": "Факултет за Медицински Науки, Мирче Ацев, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.10010000000000001
+        },
+        {
+          "place_id": 241293211,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119475,
+          "boundingbox": [
+            "41.7600512",
+            "41.7605155",
+            "22.1650086",
+            "22.1656332"
+          ],
+          "lat": "41.76027725",
+          "lon": "22.165320926771095",
+          "display_name": "Правен факултет, Zheleznichka, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.0001
+        },
+        {
+          "place_id": 240442473,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119472,
+          "boundingbox": [
+            "41.7460804",
+            "41.746438",
+            "22.1835655",
+            "22.1840195"
+          ],
+          "lat": "41.7462679",
+          "lon": "22.183783238091273",
+          "display_name": "Технолошко-технички факултет, R1204, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.0001
+        },
+        {
+          "place_id": 241064002,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119471,
+          "boundingbox": [
+            "41.746345",
+            "41.7465745",
+            "22.1837554",
+            "22.184091"
+          ],
+          "lat": "41.74645655",
+          "lon": "22.183921586061512",
+          "display_name": "Електротехнички факултет, R1204, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.0001
+        },
+        {
+          "place_id": 240494593,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 678119469,
+          "boundingbox": [
+            "41.7461144",
+            "41.7464751",
+            "22.1838565",
+            "22.1843262"
+          ],
+          "lat": "41.74629285",
+          "lon": "22.18409392477537",
+          "display_name": "Земјоделски факултет, R1204, Кежовица, Ново Село, Shtip, Municipality of Shtip, Eastern Region, 2000, North Macedonia",
+          "place_rank": 30,
+          "category": "building",
+          "type": "university",
+          "importance": 0.0001
+        },
+          {
+            "place_id": 262640206,
+            "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+            "osm_type": "way",
+            "osm_id": 810051427,
+            "boundingbox": [
+              "41.3530306",
+              "41.3547834",
+              "21.5399889",
+              "21.5419738"
+            ],
+            "lat": "41.3538542",
+            "lon": "21.540964132766582",
+            "display_name": "Faculty of Economics - Prilep, 143, Prilepski Braniteli, Centar, Prilep, Municipality of Prilep, Pelagonia Region, 7500, North Macedonia",
+            "place_rank": 30,
+            "category": "amenity",
+            "type": "university",
+            "importance": 0.0001,
+            "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+          },
+          {
+            "place_id": 184505936,
+            "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+            "osm_type": "way",
+            "osm_id": 332143048,
+            "boundingbox": [
+              "41.3534518",
+              "41.3542109",
+              "21.5404604",
+              "21.5415145"
+            ],
+            "lat": "41.353831299999996",
+            "lon": "21.54082400772647",
+            "display_name": "UKLO - Faculty for Economics - Prilep, Prilepski Braniteli, Centar, Prilep, Municipality of Prilep, Pelagonia Region, 7500, North Macedonia",
+            "place_rank": 30,
+            "category": "building",
+            "type": "university",
+            "importance": 0.0001
+          },
+            {
+              "place_id": 2968939,
+              "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+              "osm_type": "node",
+              "osm_id": 390431519,
+              "boundingbox": [
+                "41.1078477",
+                "41.1079477",
+                "20.8086851",
+                "20.8087851"
+              ],
+              "lat": "41.1078977",
+              "lon": "20.8087351",
+              "display_name": "Faculty of Tourism and Hospitality, Partizanska, Крст Џамија, Ohrid, Municipality of Ohrid, Southwestern Region, 6000, North Macedonia",
+              "place_rank": 30,
+              "category": "amenity",
+              "type": "university",
+              "importance": 0.0001,
+              "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
+            }
+      ]
