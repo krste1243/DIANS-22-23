@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+p {
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: lightskyblue;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFF;
+    font-weight: 900;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    font-size: 28px;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.cta {
+    background-color: #DC7633;
+    color: white;
+}
+
+.cta:hover {
+    background-color: black;
+    color: white;
+}
+.global{
+    margin-left: 196px;
+}
+.h2{
+    padding-top: 50px;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    margin-left: 30px;
+}
+.display{
+    display: inline-block;
+    width: 188px;
+}
+.global{
+    margin-top: -67px;
+    width: 50px;
+    margin-left: 236px;
+    position: absolute;
+}
+.whole{
+    width: 307px;
+    margin-top: 85px;
+    margin-left: 134px;
+    background-color: lightblue;
+    border-radius: 57px;
+}
+body > div > div > div > h2{
+    margin-left: 33px;
+    width: 220px;
+}
+.gradovi{
+    width: 400px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 83px;
+    margin-top: 46px;
+    font-size: 27px;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+.cities{
+    margin-left: 98px;
+}
+body > div.gradovi > div > div:nth-child(1){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(2){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(3){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(4){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(5){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(6){
+    background-color: whitesmoke;
+    width: 200px;
+    border-radius: 30px;
+}
+body > div.gradovi > div > div:nth-child(1) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+body > div.gradovi > div > div:nth-child(2) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+body > div.gradovi > div > div:nth-child(3) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+body > div.gradovi > div > div:nth-child(4) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+body > div.gradovi > div > div:nth-child(5) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+body > div.gradovi > div > div:nth-child(6) > p{
+    margin-left: 52px;
+    color: dodgerblue;
+}
+.phoneMaps{
+    margin-left: 472px;
+    display: inline-block;
+}
+.mapa{
+    margin-left: 920px;
+    margin-top: -500px;
+    margin-bottom: 143px;
+    width: 570px;
+    height: 400px;
+}
+body > small{
+    display: none;
+}
+body > div.phoneMaps > img{
+    height: 480px;
+}
