@@ -33,6 +33,12 @@ public class HomeController {
         return "cities";
     }
 
+    @GetMapping("/faculty")
+    public String getFacultyPage(@RequestParam String facultyName,@RequestParam String city, Model model) {
+        model.addAttribute("faculty", facultyService.findFacultyByNameAndCity(facultyName, city).orElseThrow(RuntimeException::new));
+        return "faculty";
+    }
+
     @GetMapping("/faculties")
     public String getFacultiesPage(@RequestParam(required = false) String city, Model model) {
         if(city != null && !city.isEmpty()) {

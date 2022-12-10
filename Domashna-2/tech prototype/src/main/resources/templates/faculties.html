@@ -34,8 +34,7 @@
 </div>
 <div class="gradovi">
     <div class="cities">
-        <div th:each="faculty: ${faculties}"><p><th:block th:text="${faculty.getName()}"></th:block></p></div>
-
+        <div class="cl" style="background-color: whitesmoke; width: 230px; border-radius: 30px" th:each="faculty: ${faculties}"><a th:href="@{'/faculty?facultyName={queryFaculty}&city={queryCity}' (queryFaculty=${faculty.getName()}, queryCity=${faculty.getCity().getCity()})}"><p class="pp" style="padding: 7px; margin-left: 11px; color: dodgerblue"><th:block th:text="${faculty.getName()}"></th:block></p></a></div>
     </div>
 </div>
 <div class="phoneMaps">

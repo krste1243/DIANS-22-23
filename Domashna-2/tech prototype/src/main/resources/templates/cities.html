@@ -34,7 +34,7 @@
 <div class="gradovi">
     <div class="cities">
 
-        <div th:each="city: ${cities}"><a th:href="@{'/faculties?city={queryCity}' (queryCity=${city.getCity()})}"><p><th:block th:text="${city.getCity()}"></th:block></p></a></div>
+        <div th:each="city: ${cities}"><a th:href="@{'/faculties?city={queryCity}' (queryCity=${city.getCity()})}"><p style="margin-left:50px;"><th:block th:text="${city.getCity()}"></th:block></p></a></div>
 <!--        <div><p>Skopje</p></div>-->
 <!--        <div><p>Bitola</p></div>-->
 <!--        <div><p>Shtip</p></div>-->

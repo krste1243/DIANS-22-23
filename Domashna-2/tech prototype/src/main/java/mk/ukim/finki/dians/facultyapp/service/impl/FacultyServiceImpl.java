@@ -8,6 +8,7 @@ import mk.ukim.finki.dians.facultyapp.service.FacultyService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class FacultyServiceImpl implements FacultyService {
@@ -33,4 +34,16 @@ public class FacultyServiceImpl implements FacultyService {
     public List<Faculty> searchFacultiesByCity(String city) {
         return facultyRepository.findAllByCity(cityRepository.findById(city).orElseThrow(RuntimeException::new));
     }
+
+    @Override
+    public Optional<Faculty> findFacultyByNameAndCity(String name, String city) {
+        return facultyRepository.findByNameAndCity(name, findCityByName(city).orElseThrow(RuntimeException::new));
+    }
+
+    @Override
+    public Optional<City> findCityByName(String city) {
+        return cityRepository.findById(city);
+    }
+
+
 }

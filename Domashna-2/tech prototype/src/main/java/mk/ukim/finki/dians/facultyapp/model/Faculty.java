@@ -16,4 +16,8 @@ public class Faculty {
 
     @ManyToOne
     City city;
+
+    double latitude;
+
+    double longitude;
 }

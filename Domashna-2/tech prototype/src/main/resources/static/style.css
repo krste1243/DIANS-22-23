@@ -106,60 +106,60 @@ body > div > div > div > h2{
 .cities{
     margin-left: 98px;
 }
-body > div.gradovi > div > div:nth-child(1){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(2){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(3){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(4){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(5){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(6){
-    background-color: whitesmoke;
-    width: 200px;
-    border-radius: 30px;
-}
-body > div.gradovi > div > div:nth-child(1) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
-body > div.gradovi > div > div:nth-child(2) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
-body > div.gradovi > div > div:nth-child(3) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
-body > div.gradovi > div > div:nth-child(4) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
-body > div.gradovi > div > div:nth-child(5) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
-body > div.gradovi > div > div:nth-child(6) > p{
-    margin-left: 52px;
-    color: dodgerblue;
-}
+/*body > div.gradovi > div > div:nth-child(1){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(2){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(3){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(4){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(5){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(6){*/
+/*    background-color: whitesmoke;*/
+/*    width: 200px;*/
+/*    border-radius: 30px;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(1) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(2) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(3) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(4) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(5) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*body > div.gradovi > div > div:nth-child(6) > p{*/
+/*    margin-left: 52px;*/
+/*    color: dodgerblue;*/
+/*}*/
 .phoneMaps{
     margin-left: 472px;
     display: inline-block;

@@ -786,7 +786,7 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <IntrospectionStateNumber>978</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1021</IntrospectionStateNumber>
       <StartupTime>1670369668</StartupTime>
     </root>
     <database id="2" parent="1" name="balloon-shop">
@@ -809,7 +809,7 @@ false Zulu
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>979</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1022</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="5" parent="1" name="postgres">
@@ -992,33 +992,33 @@ false Zulu
       <HandlerId>334</HandlerId>
     </access-method>
     <table id="36" parent="23" name="city">
-      <ObjectId>16806</ObjectId>
+      <ObjectId>16863</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>975</StateNumber>
+      <StateNumber>1014</StateNumber>
       <AccessMethodId>2</AccessMethodId>
     </table>
     <table id="37" parent="23" name="city_faculties">
-      <ObjectId>16811</ObjectId>
+      <ObjectId>16868</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>974</StateNumber>
+      <StateNumber>1013</StateNumber>
       <AccessMethodId>2</AccessMethodId>
     </table>
     <table id="38" parent="23" name="faculty">
-      <ObjectId>16799</ObjectId>
+      <ObjectId>16871</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>974</StateNumber>
+      <StateNumber>1013</StateNumber>
       <AccessMethodId>2</AccessMethodId>
     </table>
     <column id="39" parent="36" name="city">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>969</StateNumber>
+      <StateNumber>1009</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="40" parent="36" name="city_pkey">
-      <ObjectId>16809</ObjectId>
-      <StateNumber>969</StateNumber>
+      <ObjectId>16866</ObjectId>
+      <StateNumber>1009</StateNumber>
       <ColNames>city</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1028,8 +1028,8 @@ false Zulu
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="41" parent="36" name="city_pkey">
-      <ObjectId>16810</ObjectId>
-      <StateNumber>969</StateNumber>
+      <ObjectId>16867</ObjectId>
+      <StateNumber>1009</StateNumber>
       <ColNames>city</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>city_pkey</UnderlyingIndexName>
@@ -1038,19 +1038,19 @@ false Zulu
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>970</StateNumber>
+      <StateNumber>1010</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="43" parent="37" name="faculties_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>970</StateNumber>
+      <StateNumber>1010</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="44" parent="37" name="uk_9nn2abvm0ms88ofrcmjhbjot6">
-      <ObjectId>16814</ObjectId>
-      <StateNumber>973</StateNumber>
+      <ObjectId>16878</ObjectId>
+      <StateNumber>1012</StateNumber>
       <ColNames>faculties_id</ColNames>
       <Unique>1</Unique>
       <CollationIds>0</CollationIds>
@@ -1058,26 +1058,26 @@ false Zulu
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="45" parent="37" name="uk_9nn2abvm0ms88ofrcmjhbjot6">
-      <ObjectId>16815</ObjectId>
-      <StateNumber>973</StateNumber>
+      <ObjectId>16879</ObjectId>
+      <StateNumber>1012</StateNumber>
       <ColNames>faculties_id</ColNames>
       <UnderlyingIndexName>uk_9nn2abvm0ms88ofrcmjhbjot6</UnderlyingIndexName>
     </key>
     <foreign-key id="46" parent="37" name="fkg8fx7rhjh0bqfxgoatn66vniw">
-      <ObjectId>16821</ObjectId>
-      <StateNumber>975</StateNumber>
+      <ObjectId>16885</ObjectId>
+      <StateNumber>1014</StateNumber>
       <ColNames>city_city</ColNames>
-      <RefTableId>16806</RefTableId>
+      <RefTableId>16863</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>city</RefTableName>
       <RefKeyName>city_pkey</RefKeyName>
       <RefColNames>city</RefColNames>
     </foreign-key>
     <foreign-key id="47" parent="37" name="fkba9ke3el85l3belnrg4cumtra">
-      <ObjectId>16816</ObjectId>
-      <StateNumber>974</StateNumber>
+      <ObjectId>16880</ObjectId>
+      <StateNumber>1013</StateNumber>
       <ColNames>faculties_id</ColNames>
-      <RefTableId>16799</RefTableId>
+      <RefTableId>16871</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>faculty</RefTableName>
       <RefKeyName>faculty_pkey</RefKeyName>
@@ -1087,30 +1087,38 @@ false Zulu
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>965</StateNumber>
+      <StateNumber>1011</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="49" parent="38" name="city">
+    <column id="49" parent="38" name="latitude">
       <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>965</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>double precision|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1011</StateNumber>
+      <TypeId>701</TypeId>
     </column>
-    <column id="50" parent="38" name="name">
+    <column id="50" parent="38" name="longitude">
       <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>965</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>double precision|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1011</StateNumber>
+      <TypeId>701</TypeId>
     </column>
-    <column id="51" parent="38" name="city_city">
+    <column id="51" parent="38" name="name">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>971</StateNumber>
+      <StateNumber>1011</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="52" parent="38" name="faculty_pkey">
-      <ObjectId>16804</ObjectId>
-      <StateNumber>965</StateNumber>
+    <column id="52" parent="38" name="city_city">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1011</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="53" parent="38" name="faculty_pkey">
+      <ObjectId>16876</ObjectId>
+      <StateNumber>1011</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1118,18 +1126,18 @@ false Zulu
       <ClassIds>3124</ClassIds>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="53" parent="38" name="faculty_pkey">
-      <ObjectId>16805</ObjectId>
-      <StateNumber>965</StateNumber>
+    <key id="54" parent="38" name="faculty_pkey">
+      <ObjectId>16877</ObjectId>
+      <StateNumber>1011</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>faculty_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="54" parent="38" name="fk2fw2pwiionrj3g4pecf15vave">
-      <ObjectId>16826</ObjectId>
-      <StateNumber>976</StateNumber>
+    <foreign-key id="55" parent="38" name="fk2fw2pwiionrj3g4pecf15vave">
+      <ObjectId>16890</ObjectId>
+      <StateNumber>1015</StateNumber>
       <ColNames>city_city</ColNames>
-      <RefTableId>16806</RefTableId>
+      <RefTableId>16863</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>city</RefTableName>
       <RefKeyName>city_pkey</RefKeyName>
