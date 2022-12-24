@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City-view faculties</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+<body>
+<body>
+<header>
+    <div>
+        <h1 style="display: inline-block">GO UNI.MK</h1>
+        <img src="logo.jpg"
+             style="width: 100px;width: 100px;border-radius: 50px;margin-top: 2px;position: absolute;left: 331px">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home">HOME</a></li>
+            <li><a href="aboutUs">ABOUT US</a></li>
+            <li><a href="cities">FACULTIES</a></li>
+        </ul>
+    </nav>
+</header>
+<div style="position: absolute;left: 107px;top: 110px;background-color: lightblue;height: 38px;width: 68px;border-radius: 10px">
+    <a href="/cities" style="font-size: 21px;position: relative;left: 7px;top: 7px;">Cities</a>
+</div>
+
+<div style="position: absolute;left: 27px;top: 110px;background-color: lightblue;height: 38px;width: 68px;border-radius: 10px"><a
+        style="font-size: 21px;position: relative;left: 10px;top: 7px;font-size: 21px;" href="/faculties">Back</a>
+</div>
+
+
+
+<div class="whole" style="position: absolute;top: 240px;width: 293px;height: 179px;">
+    <div class="display">
+        <div class="ha2" style="position: relative;text-align:center;top: 14px"><h2><th:block th:text="${faculty.getName()} + ' - ' + ${faculty.getCity().getCity()}"></th:block></h2></div>
+<!--        <img class="global" src="318304766_1103222330389017_5228867036738162728_n.png" style="width: 50px"-->
+<!--             height="55px">-->
+    </div>
+    <div class="faculty-image" style="margin-top: 5em">
+        <img th:src="@{${imgPath}}" width="500">
+        <!--        <img src="Faculty-for-pedagogical-studies-Bitola.jpg">-->
+    </div>
+</div>
+<div class="gradovi">
+<!--    <div class="cities">-->
+<!--        <div th:each="faculty: ${faculties}"><p><th:block th:text="${faculty.getName()}"></th:block></p></div>-->
+
+<!--    </div>-->
+</div>
+<div class="phoneMaps">
+    <img src="317744547_427619749433970_7951690720203774383_n-removebg-preview.png" style="position: absolute;top: 240px;">
+</div>
+<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.408153176307678%2C42.003434557263354%2C21.41066372394562%2C42.0047639825361&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00410/21.40941">View Larger Map</a></small>-->
+<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.40529662370682%2C42.00413016705525%2C21.407807171344757%2C42.00545957779332&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00479/21.40655">View Larger Map</a></small>-->
+<div id ="map" style="width:425px; height:425px; display: inline-block;top: 198px;
+    right: 100px;position:absolute;"></div>
+
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script th:inline="javascript">
+    // Creating map options
+    var lat = [[${faculty.getLatitude()}]];
+    var lon = [[${faculty.getLongitude()}]];
+
+    var mapOptions = {
+        center: [lat, lon],
+        zoom: 16
+    }
+
+    // Creating a map object
+    var map = new L.map('map', mapOptions);
+
+    // Creating a Layer object
+    var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+        // Adding layer to the map
+    map.addLayer(layer);
+    L.marker([lat, lon]).addTo(map)
+        .bindPopup('<p>' + [[${faculty.getName()}]] + '</p>' + '<p style="text-align: center">' + [[${faculty.getCity().getCity()}]] + '</p>')
+        .openPopup();
+</script>
+</body>
+
+
+</html>
