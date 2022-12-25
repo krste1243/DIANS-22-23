@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City-view faculties</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+<header>
+    <div>
+        <h1 style="display: inline-block">GO UNI.MK</h1>
+        <img src="logo.jpg"
+             style="width: 100px;width: 100px;border-radius: 50px;margin-top: 2px;position: absolute;left: 331px">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home">HOME</a></li>
+            <li><a href="aboutUs">ABOUT US</a></li>
+            <li><a href="cities">FACULTIES</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="whole">
+    <div class="display">
+        <div class="ha2"><h2>CHOOSE FACULTY</h2></div>
+        <img class="global" src="318304766_1103222330389017_5228867036738162728_n.png" style="width: 50px"
+             height="55px">
+    </div>
+</div>
+<div class="gradovi">
+    <div class="cities">
+        <div class="cl" style="background-color: whitesmoke; width: 230px; border-radius: 30px" th:each="faculty: ${faculties}"><a th:href="@{'/faculty?facultyName={queryFaculty}&city={queryCity}' (queryFaculty=${faculty.getName()}, queryCity=${faculty.getCity().getCity()})}"><p class="pp" style="padding: 7px; margin-left: 11px; color: dodgerblue"><th:block th:text="${faculty.getName()}"></th:block></p></a></div>
+    </div>
+</div>
+<div class="phoneMaps">
+    <img src="317744547_427619749433970_7951690720203774383_n-removebg-preview.png" style="margin-left: 71px">
+</div>
+<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.408153176307678%2C42.003434557263354%2C21.41066372394562%2C42.0047639825361&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00410/21.40941">View Larger Map</a></small>-->
+<iframe class="mapa" width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.40529662370682%2C42.00413016705525%2C21.407807171344757%2C42.00545957779332&amp;layer=mapnik" style="border: 1px solid black;height: 350px;width: 350px;margin-left: 50px"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00479/21.40655">View Larger Map</a></small>
+</body>
+</body>
+</html>
