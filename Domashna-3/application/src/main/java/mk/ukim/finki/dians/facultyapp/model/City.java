@@ -1,6 +1,7 @@
 package mk.ukim.finki.dians.facultyapp.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import lombok.Data;
@@ -12,6 +13,6 @@ import java.util.List;
 public class City {
     @Id
     String city;
-    @OneToMany
+    @OneToMany(fetch = FetchType.EAGER)
     List<Faculty> faculties;
 }
