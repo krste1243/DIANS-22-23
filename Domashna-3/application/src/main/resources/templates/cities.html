@@ -17,6 +17,8 @@
              style="width: 100px;width: 100px;border-radius: 50px;margin-top: 2px;position: absolute;left: 331px">
     </div>
     <nav>
+        <!--       Meni       -->
+
         <ul>
             <li><a href="home">HOME</a></li>
             <li><a href="aboutUs">ABOUT US</a></li>
@@ -34,20 +36,17 @@
 <div class="gradovi">
     <div class="cities">
 
+        <!--        Prebaruvanje po grad       -->
+
         <div style="width: 174px;height: 50px;background-color: whitesmoke;border-radius: 30px;" th:each="city: ${cities}"><a th:href="@{'/faculties?city={queryCity}' (queryCity=${city.getCity()})}"><p style="margin-left:47px;top: 9px;
     position: relative;"><th:block th:text="${city.getCity()}"></th:block></p></a></div>
-<!--        <div><p>Skopje</p></div>-->
-<!--        <div><p>Bitola</p></div>-->
-<!--        <div><p>Shtip</p></div>-->
-<!--        <div><p>Kichevo</p></div>-->
-<!--        <div><p>Ohrid</p></div>-->
-<!--        <div><p>Prilep</p></div>-->
+
     </div>
 </div>
 <div class="phoneMaps">
     <img src="317744547_427619749433970_7951690720203774383_n-removebg-preview.png" style="margin-left: 68px;">
 </div>
-<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.408153176307678%2C42.003434557263354%2C21.41066372394562%2C42.0047639825361&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00410/21.40941">View Larger Map</a></small>-->
+
 <iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.40529662370682%2C42.00413016705525%2C21.407807171344757%2C42.00545957779332&amp;layer=mapnik" style="width:350px;height:350px;border: 1px solid black;margin-left: 1000px"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00479/21.40655">View Larger Map</a></small>
 </body>
 </html>

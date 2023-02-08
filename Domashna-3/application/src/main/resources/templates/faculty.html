@@ -19,6 +19,9 @@
              style="width: 100px;width: 100px;border-radius: 50px;margin-top: 2px;position: absolute;left: 331px">
     </div>
     <nav>
+
+        <!--       Meni       -->
+
         <ul>
             <li><a href="home">HOME</a></li>
             <li><a href="aboutUs">ABOUT US</a></li>
@@ -41,12 +44,17 @@
 
 
     <div class="display">
+
+        <!--       Prikazuvanje ime na fakultet       -->
+
         <div class="ha2" style="position: relative;text-align:center;top: 14px"><h2><th:block th:text="${faculty.getName()} + ' - ' + ${faculty.getCity().getCity()}"></th:block></h2></div>
-<!--        <img class="global" src="318304766_1103222330389017_5228867036738162728_n.png" style="width: 50px"-->
-<!--             height="55px">-->
+
     </div>
 
 </div>
+
+<!--       Prikazhuvanje slika na fakultet       -->
+
 <div class="faculty-image">
 
     <img th:src="@{${imgPath}}" style="margin-top: 5em;top: 350px;
@@ -54,25 +62,21 @@
     height:274px;
     width: 350px;
     position: absolute;">
-    <!--        <img src="Faculty-for-pedagogical-studies-Bitola.jpg">-->
 </div>
 <div class="gradovi">
-<!--    <div class="cities">-->
-<!--        <div th:each="faculty: ${faculties}"><p><th:block th:text="${faculty.getName()}"></th:block></p></div>-->
 
-<!--    </div>-->
 </div>
 <div class="phoneMaps">
     <img src="317744547_427619749433970_7951690720203774383_n-removebg-preview.png" style="position: absolute;top: 240px;">
 </div>
-<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.408153176307678%2C42.003434557263354%2C21.41066372394562%2C42.0047639825361&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00410/21.40941">View Larger Map</a></small>-->
-<!--<iframe class="mapa" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.40529662370682%2C42.00413016705525%2C21.407807171344757%2C42.00545957779332&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/42.00479/21.40655">View Larger Map</a></small>-->
+
 <div id ="map" style="width:425px; height:425px; display: inline-block;top: 198px;
     right: 100px;position:absolute;"></div>
 
 <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script th:inline="javascript">
-    // Creating map options
+    // Code for displaying the map of each faculty using Leaflet.js
+    // Creating map options - setting the latitude and longitude coordinates of the faculty building
     var lat = [[${faculty.getLatitude()}]];
     var lon = [[${faculty.getLongitude()}]];
 

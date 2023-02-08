@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/")
 public class HomeController {
 
-    private final FacultyService facultyService;
 
-    public HomeController(FacultyService facultyService) {
-        this.facultyService = facultyService;
+    public HomeController() {
+
     }
 
     @GetMapping(value = {"/home", ""})
@@ -28,39 +27,4 @@ public class HomeController {
         return "aboutUs";
     }
 
-    @GetMapping("/cities")
-    public String getCitiesPage(Model model) {
-        model.addAttribute("cities", facultyService.listAllCities());
-        return "cities";
-    }
-
-    @GetMapping("/faculty")
-    public String getFacultyPage(@RequestParam String facultyName,@RequestParam String city, Model model) {
-        Faculty faculty = facultyService.findFacultyByNameAndCity(facultyName, city).orElseThrow(RuntimeException::new);
-        model.addAttribute("faculty", faculty);
-        if(faculty.getName().toLowerCase().contains("suli")) {
-            model.addAttribute("imgPath", "Faculty-of-Visual-Arts-Suli-An-Skopje.jpg");
-        }
-        else if(faculty.getName().toLowerCase().contains("&")) {
-            model.addAttribute("imgPath", "Faculty-of-Civil-Engineering-&-Architecture-Skopje.jpg");
-        }
-        else if(faculty.getName().toLowerCase().contains("uklo")) {
-            model.addAttribute("imgPath", "UKLO-Faculty-for-Economics-Prilep.jpg");
-        }
-        else {
-            model.addAttribute("imgPath", faculty.getName().trim().replace(" ","-") + "-" + faculty.getCity().getCity() + ".jpg");
-        }
-        return "faculty";
-    }
-
-    @GetMapping("/faculties")
-    public String getFacultiesPage(@RequestParam(required = false) String city, Model model) {
-        if(city != null && !city.isEmpty()) {
-            model.addAttribute("faculties", facultyService.searchFacultiesByCity(city));
-        }
-        else {
-            model.addAttribute("faculties", facultyService.listAllFaculties());
-        }
-        return "faculties";
-    }
 }

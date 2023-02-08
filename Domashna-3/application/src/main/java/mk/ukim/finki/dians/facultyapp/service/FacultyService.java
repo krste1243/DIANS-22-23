@@ -8,8 +8,6 @@ import java.util.Optional;
 
 public interface FacultyService {
     List<Faculty> listAllFaculties();
-    List<City> listAllCities();
     List<Faculty> searchFacultiesByCity(String city);
     Optional<Faculty> findFacultyByNameAndCity(String name, String city);
-    Optional<City> findCityByName(String city);
 }
