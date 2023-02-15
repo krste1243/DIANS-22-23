@@ -1,0 +1,10 @@
+mk\ukim\finki\dians\facultyservice\dto\FacultyResponse$FacultyResponseBuilder.class
+mk\ukim\finki\dians\facultyservice\repository\FacultyRepository.class
+mk\ukim\finki\dians\facultyservice\model\City.class
+mk\ukim\finki\dians\facultyservice\service\impl\FacultyServiceImpl.class
+mk\ukim\finki\dians\facultyservice\repository\CityRepository.class
+mk\ukim\finki\dians\facultyservice\controller\FacultyController.class
+mk\ukim\finki\dians\facultyservice\model\Faculty.class
+mk\ukim\finki\dians\facultyservice\dto\FacultyResponse.class
+mk\ukim\finki\dians\facultyservice\FacultyServiceApplication.class
+mk\ukim\finki\dians\facultyservice\service\FacultyService.class
