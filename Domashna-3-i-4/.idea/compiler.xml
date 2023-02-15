@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-server" />
+        <module name="city-service (1)" />
+        <module name="api-gateway" />
+        <module name="faculty-service" />
+        <module name="FacultyApp" />
+        <module name="city-service" />
+        <module name="faculty-service (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="16" />
+      <module name="city-service" target="17" />
+      <module name="city-service (1)" target="16" />
+      <module name="discovery-server" target="16" />
+      <module name="faculty-service" target="16" />
+      <module name="faculty-service (1)" target="17" />
+      <module name="FacultyApp" target="17" />
+      <module name="microservices" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FacultyApp" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="city-service" options="-parameters" />
+      <module name="city-service (1)" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="faculty-service" options="-parameters" />
+      <module name="faculty-service (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

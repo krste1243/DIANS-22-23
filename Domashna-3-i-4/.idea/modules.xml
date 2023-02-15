@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Domashna-3-i-4.iml" filepath="$PROJECT_DIR$/.idea/Domashna-3-i-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/FacultyApp.iml" filepath="$PROJECT_DIR$/application/FacultyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/microservices/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/city-service/city-service.iml" filepath="$PROJECT_DIR$/city-service/city-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices/city-service/city-service (1).iml" filepath="$PROJECT_DIR$/microservices/city-service/city-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/microservices/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices/faculty-service/faculty-service.iml" filepath="$PROJECT_DIR$/microservices/faculty-service/faculty-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/faculty-service/faculty-service (1).iml" filepath="$PROJECT_DIR$/faculty-service/faculty-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices/microservices.iml" filepath="$PROJECT_DIR$/microservices/microservices.iml" />
+    </modules>
+  </component>
+</project>
