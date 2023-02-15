@@ -1,0 +1,93 @@
+---
+version: '3.7'
+services:
+
+  postgres-db:
+    container_name: postgres-db
+    image: postgres
+    environment:
+      POSTGRES_DB: facultyapp-db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    volumes:
+      - ./postgres-order:/data/postgres
+    expose:
+      - "5432"
+    ports:
+      - "5432:5432"
+    command: -p 5432
+    restart: always
+
+  ## Eureka Server
+  discovery-server:
+    image: gorgilazarev3/discovery-server:latest
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+
+
+  api-gateway:
+    image: gorgilazarev3/api-gateway:latest
+    container_name: api-gateway
+    ports:
+      - "8086:8086"
+    expose:
+      - "8086"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY= TRACE
+    depends_on:
+      - discovery-server
+
+  ## City-Service Docker Compose Config
+  city-service:
+    container_name: city-service
+    image: gorgilazarev3/city-service:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/facultyapp-db
+    ports:
+      - "8082:8082"
+    expose:
+      - "8082"
+    depends_on:
+      - discovery-server
+      - api-gateway
+      - postgres-db
+
+  ## Faculty-Service Docker Compose Config
+  faculty-service:
+    container_name: faculty-service
+    image: gorgilazarev3/faculty-service:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/facultyapp-db
+    ports:
+      - "8081:8081"
+    expose:
+      - "8081"
+    depends_on:
+      - discovery-server
+      - api-gateway
+      - postgres-db
+
+  ## Faculty Web Application Docker Compose Config
+  faculty-app:
+    container_name: faculty-app
+    image: gorgilazarev3/faculty-app:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/facultyapp-db
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    depends_on:
+      - discovery-server
+      - api-gateway
+      - postgres-db
+      - city-service
+      - faculty-service
